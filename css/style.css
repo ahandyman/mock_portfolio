@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, header, main, aside, section, footer, #feature_work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  order: 1;
+  width: 20%;
+  margin-top: 80px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  align-items: center;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  order: 2;
+  width: 80%;
+}
+
+header {
+  order: 1;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.line_box {
+  order: 2;
+  width: 100%;
+  margin-bottom: 5px;
+  border-bottom: 5px solid lightsteelblue;
+}
+
+/* .line {
+  border-style: solid;
+  border-bottom: solid 2px aqua;
+} */
+
+#logo {
+  height: 25px;
+  width: 25px;
+}
+
+#logo_container {
+  width: 20%;
+  order: 1;
+  align-self: center;
+}
+
+.personalInfo {
+  width: 80%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#myName {
+  order: 1;
+}
+
+#frontEnd {
+  order: 2;
+}
+
+section {
+  order: 2;
+  width: 100%;
+}
+
+article {
+  width: 33.33333%;
+}
+
+footer {
+  order: 3;
+}
+
+#feature_work {
+  width: 100%;
+}
+
+#logo {
+  background-color: lightblue;
+}
+
+#img_header {
+  width: 100%;
+  height: 300px;
+}
+
+.img_featuredWork {
+  width: 100%;
+  height: 150px;
+}
+
+.img_aside {
+  width: 50px;
+  height: 50px;
+}
+
+#myName {
+  background-color: blue;
+}
+
+#FrontEnd {
+  background-color: darkblue;
+}
