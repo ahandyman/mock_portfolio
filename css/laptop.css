@@ -1,0 +1,29 @@
+.nav_top {
+  display: flex;
+  flex-wrap: wrap;
+  order: 2;
+  width: 100%;
+}
+
+.nav_top_aboutMe {
+  order: 1;
+  width: 33.3333%;
+}
+
+.nav_top_FollowMe {
+  order: 2;
+  width: 33.3333%;
+}
+
+.nav_top_ContactMe {
+  order: 3;
+  width: 33.3333%;
+}
+
+aside {
+  display: none;
+}
+
+main {
+  width: 100%;
+}
