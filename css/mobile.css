@@ -11,8 +11,8 @@ aside {
 }
 
 .personalInfo {
-  width: 100%;
-  align-items: center;
+  width: 80%;
+  /* align-items: center; */
 }
 
 main {
@@ -32,4 +32,15 @@ article {
 .featuredWork_header {
   margin-left: auto;
   margin-right: auto;
+}
+
+#hamburger_menu {
+  width: 20%;
+}
+
+.hamburger {
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
 }
