@@ -13,3 +13,14 @@ main {
 .nav_top {
   display: none;
 }
+
+#hamburger_menu {
+  width: 20%;
+}
+
+.hamburger {
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
+}
