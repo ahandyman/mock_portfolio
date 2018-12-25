@@ -1,0 +1,15 @@
+aside {
+  display: none;
+}
+
+main {
+  width: 100%;
+}
+
+#logo_container {
+  width: 20%;
+}
+
+.nav_top {
+  display: none;
+}
