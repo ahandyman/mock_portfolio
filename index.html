@@ -6,13 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" media="screen and (max-width:600px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (max-width:350px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width:350px) and (max-width:770px)" href="css/tablet.css">
+  <link rel="stylesheet" media="screen and (min-width:770px)" href="css/laptop.css">
   <title>Portfolio-Web Developer (Ramon)</title>
 </head>
 
 <body>
   <aside>
-    <nav>
+    <nav class="aside">
       <ul>
         <li><img class="img_aside" src="img/Octocat/Octocat.jpg" alt="#02b3e4"></li>
 
@@ -25,9 +27,18 @@
     </nav>
   </aside>
   <main>
+    <nav class="nav_top">
+      <div class="nav_top_aboutMe">About Me</div>
+      <div class="nav_top_FollowMe">Follow Me</div>
+      <div class="nav_top_ContactMe">Contact Me</div>
+    </nav>
     <header>
-      <div id="logo_container">
-        <img src="img/udacity.jpg" alt="Udacity Logo" id="logo">
+      <div id="hamburger_menu">
+        <!-- <img src="img/udacity.jpg" alt="Udacity Logo" id="logo"> -->
+        <div class="menu_top_bar"></div>
+        <div class="menu_middle_bar"></div>
+        <div class="menu_bottom_bar"></div>
+
       </div>
       <section class="personalInfo">
         <h1 id="myName">Ramon Vizcarra</h1>
@@ -39,22 +50,22 @@
     </div>
     <section>
       <img id="img_header" src="img/programming.jpg" alt="" id="bigImg">
-      <h2>Featured Work</h2>
+      <h2 class="featuredWork_header">Featured Work</h2>
       <div id="feature_work">
         <!-- SAMPLE WORK #1 -->
         <article>
-          <img class="img_featuredWork" src="img/laptop_goog.jpg" alt="">
-          <h3>Appify</h3>
+          <img class="featuredWork_img" src="img/laptop_goog.jpg" alt="">
+          <h3 class="featuredWork_header">Appify</h3>
         </article>
         <!-- SAMPLE WORK #2 -->
         <article>
-          <img class="img_featuredWork" src="img/mobile_device.jpg" alt="">
-          <h3>Sunflower</h3>
+          <img class="featuredWork_img" src="img/mobile_device.jpg" alt="">
+          <h3 class="featuredWork_header">Sunflower</h3>
         </article>
         <!-- SAMPLE WORK #3 -->
         <article>
-          <img class="img_featuredWork" src="img/design.jpg" alt="Photo by Krisztian Tabori on Unsplash">
-          <h3>Bokeh</h3>
+          <img class="featuredWork_img" src="img/design.jpg" alt="Photo by Krisztian Tabori on Unsplash">
+          <h3 class="featuredWork_header">Bokeh</h3>
         </article>
       </div>
     </section>
