@@ -10,11 +10,6 @@ aside {
   display: none;
 }
 
-.personalInfo {
-  width: 80%;
-  /* align-items: center; */
-}
-
 main {
   width: 100%;
 }
@@ -34,8 +29,8 @@ article {
   margin-right: auto;
 }
 
-#hamburger_menu {
-  width: 20%;
+.personalInfo {
+  width: 70%;
 }
 
 .hamburger {
