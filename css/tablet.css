@@ -24,3 +24,11 @@ main {
   background-color: black;
   margin: 6px 0;
 }
+
+#feature_work {
+  justify-content: space-between;
+}
+
+article {
+  width: 30%;
+}
